@@ -15,7 +15,7 @@ elif hair > 3:
 elif hair < 3:
     print ("Your hair is probably wavy.  Lighter oils would be best for you.")
 
-porosity = input("What is your porosity?")
+porosity = input("What is your porosity: low, medium, or high?")
 if porosity == "high":
     print ("Try protein to strengthen your strands.")
 elif porosity == "low":
