@@ -9,7 +9,7 @@ print ("Natural hair is extremely diverse, so not everyone will have the same ne
 hair = input("Now what is your curl type: 2, 3, or 4?")
 hair = int(hair)
 if hair == 3:
-    print ("You might want to try a light moisture milk by Shea Moisture.")
+    print ("You might want to try a light moisture milk.")
 elif hair > 3:
     print ("You have a tighter curl pattern.  Try some whipped shea butter.")
 elif hair < 3:
@@ -22,3 +22,14 @@ elif porosity == "low":
     print ("Low porosity needs heat to absorb moisture.")
 elif porosity == "medium":
     print ("You won the hair lottery! Alternate between heat and protein regularly.")
+
+print ("Let's figure out what your wash day routine should look like.")
+
+washday = input("What was your curl type?")
+washday = int(washday)
+if washday == 3:
+    print ("Use a wide-toothed comb to detangle your curls on wash day.")
+elif hair > 3:
+    print ("Use your fingers to detangle on wash day to avoid breakage.  Tighter hair is more fragile than you think.")
+elif hair < 3:
+    print ("Avoid using heavy products and oils on your fine tresses on wash day.  It may weight your hair down.")
